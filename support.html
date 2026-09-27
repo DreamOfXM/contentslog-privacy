@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contents Log — Support</title>
+<style>
+  :root { --paper:#F6F3EE; --ink:#1A1814; --mid:#6B665E; --soft:#9A948B; --line:#E6E0D6; --blue:#0B5CE0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:56px 24px 96px; }
+  h1 { font-size:30px; letter-spacing:-0.01em; margin:0 0 6px; }
+  .meta { color:var(--soft); font-size:13px; margin:0 0 40px; }
+  h2 { font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--mid);
+       margin:40px 0 10px; }
+  p, li { color:var(--ink); }
+  ul, ol { padding-left:20px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px 24px; }
+  .k { font-weight:600; }
+  .btn { display:inline-block; background:var(--blue); color:#fff; border-radius:10px;
+         padding:10px 16px; font-size:15px; font-weight:600; text-decoration:none; }
+  footer { margin-top:48px; color:var(--soft); font-size:13px; }
+  a { color:var(--blue); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support — Contents Log</h1>
+  <p class="meta">Contents Log: Home Inventory · iOS · version 1.0</p>
+
+  <div class="card">
+    <p><span class="k">The app has no account and no server, so there is nothing on our side to look at.</span>
+    Your rooms, items and photos live in the app's storage on your iPhone. Anything that looks wrong is
+    usually fixed by one of the four steps below — they need no internet connection and none of them
+    deletes your data.</p>
+  </div>
+
+  <h2>1. I unlocked it before and it's locked again</h2>
+  <p>Open the app's <strong>Settings</strong> tab → the <strong>Unlock status</strong> row shows
+  <strong>Locked</strong>. Tap it, then in the panel that opens tap <strong>Restore purchase</strong>.
+  That asks Apple whether the Apple Account on this phone already owns the unlock. It does not charge you
+  again. If it still says locked, check you are signed in to the same Apple Account you bought it with.</p>
+
+  <h2>2. I want my data out of the app</h2>
+  <ol>
+    <li>Tap the <strong>Value</strong> tab → <strong>Export this list</strong>, or go to
+    <strong>Settings</strong> → <strong>Export everything now</strong>.</li>
+    <li>Choose a row: <strong>Export CSV now · free</strong> gives you every item as a spreadsheet.
+    <strong>ZIP + full-size photos</strong> and <strong>Printable item list (PDF)</strong> are the two that
+    come with the one-time unlock.</li>
+    <li>The iOS share sheet opens. Pick <strong>Save to Files</strong>, Mail, or whatever you use. Nothing
+    is uploaded anywhere by the app itself.</li>
+  </ol>
+  <p><span class="k">Before you wipe or hand on a phone:</span> delete the app and its inventory goes with
+  it, because there is no cloud copy. Export first — a CSV plus a ZIP is the whole record.</p>
+
+  <h2>3. A photo didn't get saved</h2>
+  <p>The app never drops a picture silently — it says what happened and still saves the item. Two messages
+  you may see: <em>"This device has no usable camera, so the item was saved without a photo. Use Library
+  instead."</em> and <em>"Access to your photo library was denied — this item was saved without a
+  photo."</em> Both are recoverable: open the item again and add the photo. For the camera, allow it in iOS
+  <strong>Settings</strong> → <strong>Contents Log</strong> → <strong>Camera</strong>. For the library,
+  allow <strong>Photos</strong> there, or tap <strong>Library</strong> again and choose the images you want
+  — the picker only ever sees the ones you pick. Photos you add are stored inside the app and are never
+  written back into your photo library.</p>
+
+  <h2>4. Money: refunds and charges</h2>
+  <p>The unlock is one payment of <strong>$19.99</strong> in the US (your local price is what the App Store
+  showed you at purchase). It is not a subscription, so there is nothing to cancel and no renewal date.
+  Any refund, receipt or charge question is handled entirely by Apple — the developer never sees your card
+  or your name. Use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, or the App
+  Store's <strong>My Orders</strong> → <strong>Report a Problem</strong>.</p>
+
+  <h2>Tell us what went wrong</h2>
+  <p>Email <a href="mailto:hangzhou.gxm@gmail.com?subject=Contents%20Log%20support">hangzhou.gxm@gmail.com</a> and a person reads it.
+  You don't need to include anything personal: which screen, what you tapped, what the app showed.
+  A screenshot from the app's <strong>Settings</strong> → <strong>Export everything now</strong> flow is
+  more useful than a description.</p>
+
+  <h2>What we can't help with</h2>
+  <p>Anything involving a copy of your data we don't hold: we have no server that stores your inventory,
+  so we cannot restore a lost phone, recover a deleted room, or read back what you recorded. That is the
+  trade the offline design makes, and it is why the free CSV export exists.</p>
+
+  <footer>
+    <p>Last updated: 27 September 2026.<br>
+    Privacy: <a href="privacy.html">what the app collects</a> — the short answer is nothing.</p>
+  </footer>
+</main>
+</body>
+</html>
